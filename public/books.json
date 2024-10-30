@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "title": "Naruto",
+    "author": "Kazuki Takahashi",
+    "original_author": "",
+    "illustrator": "",
+    "img": "https://www.nautiljon.com/images/manga/00/90/mini/naruto_109.webp?11727264022",
+    "type": "Mangas",
+    "genre": " Action - Aventure - Comédie - Nekketsu",
+    "published_vo": 1999,
+    "published_vf": 2002,
+    "end_publication_vo": 2015,
+    "end_publication_vf": 2016,
+    "quantite_possede": 25,
+    "volumes_possede": "1,2,3,4,5,6",
+    "volumes_total_vo": 72,
+    "volumes_total_vf": 72,
+    "status_vo": "Terminé",
+    "status_vf": "Terminé",
+    "commentaire": ""
+  }
+]
