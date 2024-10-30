@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
-import Image from "next/image";
 
 
 type Book = {
