@@ -6,7 +6,6 @@ import Link from 'next/link';
 type Book = {
     id: string;
     title: string;
-    author: string;
     type: string;
     img: string;
 };
@@ -25,14 +24,14 @@ export default async function BooksPage() {
             <h1 className="dark:text-white">Ma Collection de Livres</h1>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {books.map((book) => (
-                    <div key={book.id} className="dark:bg-white rounded-lg shadow-md p-4">
+                    <div key={book.id} className="p-4 bg-white rounded shadow text-center">
                         <Link href={`/books/${book.id}`}>
-                            <h2 className="font-semibold">{book.title}</h2>
+                            <h2 className="mt-2">
+                                {book.title}
+                            </h2>
                         </Link>
-                        <p>Auteur : {book.author}</p>
-                        <p>Type de livre : {book.type}</p>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={book.img} alt={book.title} title={book.title}/>
+                        <img src={book.img} alt={book.title} title={book.title} className="object-cover w-full h-auto" />
                     </div>
                 ))}
             </div>
